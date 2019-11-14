@@ -8,7 +8,7 @@
     "start": "electron .",
     "build": "electron-builder build --mac --win --publish never",
     "deploy-mac": "electron-builder build --mac --publish always",
-    "deploy-win": "electron-builder build --mac --publish always",
+    "deploy-win": "electron-builder build --win --publish always",
     "deploy-all": "electron-builder build --mac --win --publish always"
   },
   "repository": {
