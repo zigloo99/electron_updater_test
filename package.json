@@ -1,17 +1,19 @@
 {
   "name": "auto_update_electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "deploy-mac": "electron-builder build --mac --publish always",
+    "deploy-win": "electron-builder build --mac --publish always",
+    "deploy-all": "electron-builder build --mac --win --publish always"
   },
   "repository": {
     "type": "git",
-    "url": "htts://github.com/zigloo99/electron_updater_test.git"
+    "url": "https://github.com/zigloo99/electron_updater_test.git"
   },
   "author": "digir",
   "license": "ISC",
