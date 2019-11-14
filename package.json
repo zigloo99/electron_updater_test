@@ -5,11 +5,13 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zigloo99/electron_updater_test.git"
+    "url": "htts://github.com/zigloo99/electron_updater_test.git"
   },
   "author": "digir",
   "license": "ISC",
